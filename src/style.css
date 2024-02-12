@@ -1,0 +1,52 @@
+window
+{
+  font-family: Arial;
+  background-color: white;
+}
+
+button
+{
+  font-size: 14px;
+  padding: 0px;
+  border: 2px groove #c0bbb0;
+}
+
+.gpio-label
+{
+  border: 1px solid #666;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.header
+{
+  background-color: #093;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+#p1, #p17
+{
+  background-color: #eb0;
+}
+
+#p2, #p4
+{
+  background-color: #f00;
+}
+
+#p27, #p28
+{
+  background-color: #06f;
+}
+
+#p6, #p9, #p14, #p20, #p25, #p30, #p34, #p39
+{
+  background-color: #000;
+}

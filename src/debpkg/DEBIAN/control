@@ -1,0 +1,8 @@
+Package: vgp
+Version: 1.01
+Section: base
+Architecture: arm64
+Maintainer: support@uugear.com
+Installed-Size: 200
+Depends: libgpiod-dev (>=1.6.2)
+Description: Command line and GUI programs for managing GPIOs in Vivid Unit.
