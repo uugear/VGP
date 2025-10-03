@@ -1,4 +1,4 @@
-#define VGP_VERSION 1.01f
+#define VGP_VERSION 1.02f
 
 #define GPIO_SWPORTA_DR   0x0000
 #define GPIO_SWPORTA_DDR  0x0004
@@ -95,7 +95,7 @@ static const char * FUNCTIONS[][4] = { {NULL, NULL, NULL, NULL},
   /*1A2*/ {"I/O", "ISP0_FTI", "ISP1_FTI", ""},        /*1A1*/ {"I/O", "ISP0_ST", "ISP1_ST", "TCPD_CC"},
   /*4B3*/ {"I/O", "SDMMC_D3", "CJTAGTMS", "HJTAGTDO"},/*GND*/ {"", "", "", ""},
   /*4B5*/ {"I/O", "SDMMCCMD", "MJTAGTMS", "HJTAGTMS"},/*4B4*/ {"I/O", "SDMMCCLK", "MJTAGTCK", "HJTAGTCK"},
-  /*4B0*/ {"I/O", "SDMMC_D0", "TXD2", ""},            /*4B1*/ {"I/O", "SDMMC_D1", "RXD2", "HJTAGTRS"},
+  /*4B0*/ {"I/O", "SDMMC_D0", "RXD2", ""},            /*4B1*/ {"I/O", "SDMMC_D1", "TXD2", "HJTAGTRS"},
   /*GND*/ {"", "", "", ""},                           /*4B2*/ {"I/O", "SDMMC_D2", "CJTAGTCK", "HJTAGTDI"}
 };
 
